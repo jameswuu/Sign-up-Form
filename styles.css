@@ -1,1 +1,47 @@
+/* Add External font style */
+@font-face {
+    font-family: Norse-Bold;
+    src: url("Norse-Bold.otf") format("opentype");
+}
+
 /* General CSS */
+body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Left side of the page */
+.nav-section {
+    flex: 1;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+.logo {
+    margin-top:180px;
+    background: rgba(74, 75, 74, 0.3);
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.logo .picture {
+    height: 1.2em;
+    width: 1.2em;
+    vertical-align:bottom;
+}
+
+.logo .text {
+    font-size: 60px;
+    font-stretch: condensed;
+    color: white;
+}
+
+
+.content-section {
+    flex: 2;
+    background-color: gainsboro;
+}
