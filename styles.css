@@ -1,7 +1,7 @@
 /* Add External font style */
 @font-face {
-    font-family: Norse-Bold;
-    src: url("Norse-Bold.otf") format("opentype");
+    font-family: "Norse-Bold"; /*Name of the custom style*/
+    src: url("Norse-Bold.otf") format("opentype"); /*Link to the source*/
 }
 
 /* General CSS */
@@ -26,18 +26,21 @@ body {
     background: rgba(74, 75, 74, 0.3);
     text-align: center;
     padding: 15px 0px;
+    font-family: "Norse-Bold";
+
 }
 
 .logo .picture {
-    height: 1.2em;
-    width: 1.2em;
-    vertical-align:bottom;
+    height: 1em;
+    width: 0.8em;
+    vertical-align: bottom;
 }
 
 .logo .text {
-    font-size: 60px;
+    font-size: 90px;
     font-stretch: condensed;
     color: white;
+
 }
 
 
