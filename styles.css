@@ -14,16 +14,17 @@ body {
 
 /* Left side of the page */
 .nav-section {
+    background-image: url('leaves_bg.jpg'); /*Link the bgk as the image*/
+    background-size: cover;
     flex: 1;
-    background-color: antiquewhite;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
 }
 
 .logo {
-    margin-top:180px;
-    background: rgba(74, 75, 74, 0.3);
+    margin-top:150px;
+    background: rgba(74, 75, 74, 0.7);
     text-align: center;
     padding: 15px 0px;
     font-family: "Norse-Bold";
@@ -37,7 +38,7 @@ body {
 }
 
 .logo .text {
-    font-size: 90px;
+    font-size: 75px;
     font-stretch: condensed;
     color: white;
 
@@ -45,6 +46,6 @@ body {
 
 
 .content-section {
-    flex: 2;
+    flex: 3;
     background-color: gainsboro;
 }
