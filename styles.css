@@ -8,9 +8,15 @@
 body {
     display: flex;
     height: 100vh;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
 }
+
+/* Setting for var */
+:root {
+    --grey: rgb(215, 215, 215);
+  }
 
 /* Left side of the page */
 .nav-section {
@@ -44,7 +50,20 @@ body {
 
 }
 
+.caption {
+    text-align: center;
+    color: var(--grey);
+    margin-bottom: 10px;
+    font-size: 13px;
+}
 
+.caption a {
+    color: var(--grey);
+
+}
+
+
+/* Right side of the page */
 .content-section {
     flex: 3;
     background-color: gainsboro;
