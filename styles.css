@@ -69,12 +69,15 @@ body {
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    text-align: center;
+    text-align: left;
 }
 
 .content-top{
     flex: 1;
-    
+    font-weight: bold;
+    font-size: 22px;
+    padding: 0 35px;
+    align-content: flex-end;
 }
 
 .content-form{
