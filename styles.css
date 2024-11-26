@@ -98,9 +98,29 @@ body {
 .form-row {
     margin-left: 35px;
     display: flex;
-    gap: 150px;
+    gap: 120px;
     margin-bottom: 10px;
 }
+
+label {
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+input {
+    width: 250px;
+    padding: 3px;
+    border: 1.5px solid grey;
+    border-radius: 4px;
+}
+
+input:focus {
+    border-color: #0042bd; /* Change the border color when focused */
+    box-shadow: 2px 2px 5px rgba(159, 173, 255, 0.5); /* Add a subtle box-shadow */
+    outline: none; /* Remove the default outline */
+  }
 
 
 
