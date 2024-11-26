@@ -35,7 +35,7 @@
                     <div class="form-fname">
                         <label for="fname">FIRST NAME</label>
                         <div>
-                            <input type="text" class="fname" id="fname" required>    
+                            <input type="text" class="fname" id="fname" required >    
                         </div>
                     </div>
     
@@ -58,7 +58,7 @@
                     <div class="form-phone">
                         <label for="phone">PHONE NUMBER</label>
                         <div>
-                            <input type="nubmer" name="phone" id="phone">           
+                            <input type="tel" name="phone" id="phone" required pattern="^[0-9]{8}$">                        
                         </div>
                     </div>
                 </div>
@@ -68,14 +68,14 @@
                     <div class="form-pw">
                         <label for="password">PASSWORD</label>
                         <div>
-                            <input type="password" class="pw" id="pw" required>    
+                            <input type="password" class="pw" id="pw" required pattern="^(?=.*[A-Z]){8,}$">    
                         </div>
                     </div>
                                     
                     <div class="form-comfirm-pw">
                         <label for="comfirm-password">COMFIRM PASSWORD</label>
                         <div>
-                            <input type="password" class="comfirm-pw" id="comfirm-pw" required>    
+                            <input type="password" class="comfirm-pw" id="comfirm-pw" required pattern="^(?=.*[A-Z]){8,}$">    
                         </div>
                     </div>
                 </div>
