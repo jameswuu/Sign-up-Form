@@ -127,9 +127,6 @@ input[type="password"]:invalid {
     border-color: red;
 }
 
-
-
-
 /* bottom content page */
 .content-bottom{
     flex: 1;
