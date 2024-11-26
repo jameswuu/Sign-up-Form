@@ -80,11 +80,29 @@ body {
     align-content: flex-end;
 }
 
+/* Form's style */
 .content-form{
     flex: 1;
     background-color: white;
     box-shadow: 10px 10px 5px lightgrey;
+    display: flex;
+    flex-direction: column;
 }
+
+.header {
+    font-weight: bold;
+    font-size: 22px;
+    margin: 10px 35px;
+}
+
+.form-row {
+    margin-left: 35px;
+    display: flex;
+    gap: 150px;
+    margin-bottom: 10px;
+}
+
+
 
 .content-bottom{
     flex: 1;
