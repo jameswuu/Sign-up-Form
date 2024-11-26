@@ -16,6 +16,7 @@ body {
 /* Setting for var */
 :root {
     --grey: rgb(215, 215, 215);
+    --green:rgb(9, 134, 9); 
   }
 
 /* Left side of the page */
@@ -132,4 +133,31 @@ input[type="password"]:invalid {
 /* bottom content page */
 .content-bottom{
     flex: 1;
+    margin-left: 36px
+}
+
+.form-submit {
+    margin: 35px 0;
+}
+
+button {
+    border-radius: 8px;
+    border: 1px solid var(--green);
+    color: white;
+    background-color: var(--green);
+    font-weight: bold;
+    padding: 10px 35px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(9, 134, 9, 0.8);
+}
+
+.login {
+    color: var(--green);
+}
+
+.login:hover {
+    color: rgb(9, 134, 9, 0.8);
 }
